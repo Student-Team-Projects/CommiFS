@@ -1,0 +1,1 @@
+gcc -Wall src/main.c `pkg-config fuse --cflags --libs` -o comiFS
